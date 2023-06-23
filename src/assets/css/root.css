@@ -1,0 +1,93 @@
+:root {
+  --sportify-color-main: #3be9db;
+  --sportify-color-main-deep: #339999;
+  --sportify-color-main-medium: #00cccc;
+  --sportify-color-main-light: #99ffff;
+  --sportify-color-gray: #999999;
+  --sportify-color-gray-light: rgb(216, 216, 216);
+  --sportify-color-pink: #ff66ff;
+  --sportify-color-pink-light: #ffccff;
+  --sportify-color-orange: #ff6633;
+  --sportify-color-orange-light: #ff9966;
+  --sportify-color-lemon: #ffff99;
+  --sportify-color-yellow: #ffff33;
+}
+/* css 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.boardcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.boardcard hr {
+  border: 1px dashed var(--sportify-color-gray-light);
+}
+
+.boardcard-upper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px 0px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.boardcard-info {
+  width: 85%;
+}
+
+.boardcard-info-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.boardcard-info-info {
+  font-size: 0.8rem;
+  color: var(--sportify-color-gray);
+  margin: 5px 0px;
+}
+
+.boardcard-comments {
+  width: 15%;
+  background-color: var(--sportify-color-gray-light);
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* font list */
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap");
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+@font-face {
+  font-family: "RixYeoljeongdo_Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

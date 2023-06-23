@@ -91,3 +91,11 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
+
+/* media query */
+
+@media (max-width: 430px) {
+  .container {
+    width: 100%;
+  }
+}
